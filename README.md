@@ -22,14 +22,14 @@ This project is a collection of AI model deployments targeting the RK3588 NPU pl
 
 | Model | Category | Task | Details |
 |-------|----------|------|---------|
-| [Qwen3-VL](./qwen3-vl-rk3588) | Multimodal | Visual Understanding | Qwen3-VL-2B vision-language model |
+| [Qwen3-VL](./Qwen3-VL-rk3588) | Multimodal | Visual Understanding | Qwen3-VL-2B vision-language model |
 | [InternVL3](./internvl3-rk3588) | Multimodal | Visual Understanding | InternVL3-1B vision-language model |
 | [DeepSeek-OCR](./deepseek-ocr-rk3588) | Multimodal | OCR | DeepSeek-OCR optical character recognition |
 | [PPOCRv4](./ppocr-rk3588) | CV | OCR | PaddleOCR v4 text recognition |
 | [Whisper](./whisper-rk3588) | Audio | Speech Recognition (ASR) | OpenAI Whisper speech-to-text |
 | [MMS-TTS](./mms_tts-rk3588) | Audio | Text-to-Speech (TTS) | Facebook MMS-TTS multilingual synthesis |
 | [Qwen3-Embedding](./Qwen3-Embedding-rk3588) | NLP | Text Embedding | Qwen3-Embedding-0.6B text representation |
-| [Qwen3-Rerank](./qwen3-rerank-rk3588) | NLP | Reranking | Qwen3-Reranker-0.6B text reranking |
+| [Qwen3-Rerank](./Qwen3-Rerank-rk3588) | NLP | Reranking | Qwen3-Reranker-0.6B text reranking |
 
 ## Getting Started
 
@@ -58,14 +58,14 @@ apt-get install -y libglib2.0-0
 
 ```
 .
-├── qwen3-vl-rk3588/           # Qwen3-VL vision-language model
+├── Qwen3-VL-rk3588/           # Qwen3-VL vision-language model
 ├── internvl3-rk3588/           # InternVL3 vision-language model
 ├── deepseek-ocr-rk3588/        # DeepSeek-OCR optical character recognition
 ├── ppocr-rk3588/               # PaddleOCR v4 text recognition
 ├── whisper-rk3588/             # Whisper speech recognition
 ├── mms_tts-rk3588/             # MMS-TTS text-to-speech
 ├── Qwen3-Embedding-rk3588/     # Qwen3-Embedding text embedding
-├── qwen3-rerank-rk3588/        # Qwen3-Rerank text reranking
+├── Qwen3-Rerank-rk3588/        # Qwen3-Rerank text reranking
 ├── clone_repos.sh              # One-click clone script
 ├── setup_conda_env.sh          # Conda environment setup script
 ├── CLONE_GUIDE.md              # Repository cloning guide
@@ -94,4 +94,6 @@ This project is licensed under the [Apache License 2.0](./LICENSE).
 
 ---
 
-> ⚠️ **Note**: This project is currently in its early stages of development. Some models have not yet passed complete integration testing. Stay tuned for updates and more model adaptations.
+> ✅ **Verified Models**: Qwen3-Rerank-rk3588, Qwen3-Embedding-rk3588, mms_tts-rk3588, whisper-rk3588, ppocr-rk3588, and Qwen3-VL-rk3588 have passed usability and concurrency tests on the Radxa Rock 5T. More models will be verified and supported in the future. If you encounter any issues, please open an issue. Contributions of new models are welcome!
+>
+> ⚠️ **Note**: Some models have not yet passed complete integration testing. Stay tuned for updates and more model adaptations.

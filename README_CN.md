@@ -22,14 +22,14 @@
 
 | 模型 | 类型 | 任务 | 详情 |
 |------|------|------|------|
-| [Qwen3-VL](./qwen3-vl-rk3588) | 多模态 | 视觉理解 | Qwen3-VL-2B 视觉语言模型 |
+| [Qwen3-VL](./Qwen3-VL-rk3588) | 多模态 | 视觉理解 | Qwen3-VL-2B 视觉语言模型 |
 | [InternVL3](./internvl3-rk3588) | 多模态 | 视觉理解 | InternVL3-1B 视觉语言模型 |
 | [DeepSeek-OCR](./deepseek-ocr-rk3588) | 多模态 | OCR 文字识别 | DeepSeek-OCR 光学字符识别 |
 | [PPOCRv4](./ppocr-rk3588) | CV | OCR 文字识别 | PaddleOCR v4 文字识别 |
 | [Whisper](./whisper-rk3588) | 语音 | 语音识别 (ASR) | OpenAI Whisper 语音转文字 |
 | [MMS-TTS](./mms_tts-rk3588) | 语音 | 语音合成 (TTS) | Facebook MMS-TTS 文字转语音 |
 | [Qwen3-Embedding](./Qwen3-Embedding-rk3588) | NLP | 文本嵌入 | Qwen3-Embedding-0.6B 文本表示 |
-| [Qwen3-Rerank](./qwen3-rerank-rk3588) | NLP | 重排序 | Qwen3-Reranker-0.6B 文本重排序 |
+| [Qwen3-Rerank](./Qwen3-Rerank-rk3588) | NLP | 重排序 | Qwen3-Reranker-0.6B 文本重排序 |
 
 ## 快速开始
 
@@ -58,14 +58,14 @@ apt-get install -y libglib2.0-0
 
 ```
 .
-├── qwen3-vl-rk3588/           # Qwen3-VL 视觉语言模型
+├── Qwen3-VL-rk3588/           # Qwen3-VL 视觉语言模型
 ├── internvl3-rk3588/           # InternVL3 视觉语言模型
 ├── deepseek-ocr-rk3588/        # DeepSeek-OCR 光学字符识别
 ├── ppocr-rk3588/               # PaddleOCR v4 文字识别
 ├── whisper-rk3588/             # Whisper 语音识别
 ├── mms_tts-rk3588/             # MMS-TTS 语音合成
 ├── Qwen3-Embedding-rk3588/     # Qwen3-Embedding 文本嵌入
-├── qwen3-rerank-rk3588/        # Qwen3-Rerank 文本重排序
+├── Qwen3-Rerank-rk3588/        # Qwen3-Rerank 文本重排序
 ├── clone_repos.sh              # 一键克隆脚本
 ├── setup_conda_env.sh          # Conda 环境配置脚本
 ├── CLONE_GUIDE.md              # 克隆指南
@@ -94,4 +94,6 @@ apt-get install -y libglib2.0-0
 
 ---
 
-> ⚠️ **注意**：本项目目前处于初步构建阶段，部分模型尚未通过完整实例测试，欢迎关注后续更新和更多模型的适配。
+> ✅ **已验证模型**：Qwen3-Rerank-rk3588、Qwen3-Embedding-rk3588、mms_tts-rk3588、whisper-rk3588、ppocr-rk3588、Qwen3-VL-rk3588 已在 Radxa Rock 5T 上通过可用性测试和并发测试。更多模型会在后续逐步验证和支持，有任何问题请提 Issue，欢迎贡献新的模型！
+>
+> ⚠️ **注意**：部分模型尚未通过完整实例测试，欢迎关注后续更新和更多模型的适配。
