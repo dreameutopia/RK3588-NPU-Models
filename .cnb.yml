@@ -1,0 +1,9 @@
+# .cnb.yml
+$:
+  # vscode 事件：专供页面中启动远程开发用
+  vscode:
+    - runner:
+        #内存为cpu数量的两倍。cpu选项（8 16 24 32 48 64）
+        cpus: 24
+        #默认连接H20显卡，:gpu:L20链接48G显卡
+        # tags: cnb:arch:amd64:gpu:L40

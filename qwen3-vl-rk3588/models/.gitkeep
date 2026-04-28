@@ -1,0 +1,4 @@
+# 将模型文件放置在此目录
+# 需要的文件:
+# - qwen3-vl-2b_vision_rk3576.rknn
+# - qwen3-vl-2b-instruct_w4a16_g128_rk3576.rkllm

@@ -1,0 +1,13 @@
+Hello, this is a test of the MMS TTS system.
+The quick brown fox jumps over the lazy dog.
+Welcome to RK3576 text to speech demo.
+Artificial intelligence is transforming our world.
+Thank you for using this demo.
+The weather today is sunny and warm.
+Please speak clearly into the microphone.
+Testing one two three, this is a voice synthesis test.
+Rockchip RK3576 is a powerful AI processor.
+Have a nice day!
+This is a longer sentence to test the synthesis quality and performance of the model on RK3576 platform.
+Numbers test: one two three four five six seven eight nine ten.
+Special characters: Hello! How are you? I'm fine, thanks.

@@ -1,0 +1,14 @@
+# PC 端模型转换依赖
+rknn-toolkit2
+setuptools==69.0.0
+onnx==1.15.0
+onnxruntime==1.16.3
+onnx-simplifier
+soundfile
+numpy
+scipy
+torch
+openai-whisper
+
+# 开发板端运行依赖 (使用 rknn-toolkit-lite2)
+# pip install rknn_toolkit_lite2-2.0.0-cp310-cp310-linux_aarch64.whl

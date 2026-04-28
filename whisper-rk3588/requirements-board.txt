@@ -1,0 +1,4 @@
+# RK3588 开发板运行依赖
+soundfile
+numpy
+scipy

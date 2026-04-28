@@ -1,0 +1,74 @@
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                     Qwen3-Rerank Batch Reranking Demo                         ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+📌 Query: What is machine learning and how does it work?
+
+──────────────────────────────────────── Original Documents ────────────────────────────────────────
+[ 0] Machine learning is a subset of artificial intelligence that enables systems to learn and improve from experience without being explicitly programmed, using algorithms to identify patterns and make decisions.
+[ 1] Deep learning is a specialized branch of machine learning that uses artificial neural networks with multiple layers to progressively extract higher-level features from raw input data for pattern recognition and decision making.
+[ 2] Python is a high-level programming language widely used for web development, data analysis, machine learning, artificial intelligence applications, and scientific computing due to its simple syntax and extensive libraries.
+[ 3] Natural language processing (NLP) is a subfield of linguistics, computer science, and artificial intelligence concerned with the interactions between computers and human language, enabling machines to understand, interpret, and generate natural human speech.
+[ 4] The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France, constructed from 1887 to 1889 as the centerpiece of the 1889 World's Fair and one of the most recognizable structures in the world.
+[ 5] The weather forecast for tomorrow predicts partly cloudy skies with a chance of rain in the afternoon, with temperatures ranging from 15 to 22 degrees Celsius and moderate winds from the southwest.
+[ 6] Recurrent neural networks (RNNs) are a class of artificial neural networks designed to recognize patterns in sequences of data such as text, genomes, handwriting, or numerical time series, commonly used for natural language processing tasks.
+[ 7] The American Civil War was a civil war in the United States fought between 1861 and 1865, primarily over the issues of slavery and states' rights that divided the Northern and Southern states.
+[ 8] Convolutional neural networks (CNNs) are a class of deep neural networks most commonly applied to analyzing visual imagery, using specialized linear algebraic operations called convolution instead of general matrix multiplication.
+[ 9] Financial markets are venues where buyers and sellers engage in the exchange of assets such as stocks, bonds, currencies, and derivatives, with stock markets being key indicators of economic health.
+───────────────────────────────────────────────────────────────────────────────────────────────────
+▶ Processing 10 documents...
+
+  ✓ Doc[ 0] Score: 1.0000 | Time: 350.00 ms
+  ✓ Doc[ 1] Score: 1.0000 | Time: 159.00 ms
+  ✓ Doc[ 2] Score: 1.0000 | Time: 158.00 ms
+  ✓ Doc[ 3] Score: 1.0000 | Time: 187.00 ms
+  ✓ Doc[ 4] Score: 0.9990 | Time: 261.00 ms
+  ✓ Doc[ 5] Score: 0.9987 | Time: 170.00 ms
+  ✓ Doc[ 6] Score: 1.0000 | Time: 186.00 ms
+  ✓ Doc[ 7] Score: 0.9991 | Time: 185.00 ms
+  ✓ Doc[ 8] Score: 1.0000 | Time: 171.00 ms
+  ✓ Doc[ 9] Score: 0.9964 | Time: 156.00 ms
+
+─────────────────────────────────────────── Performance Stats ───────────────────────────────────────────
+  ⏱  Total time:      1987.00 ms
+  ⏱  Average time:     198.30 ms/doc
+  ⚡ Throughput:         5.03 docs/sec
+───────────────────────────────────────────────────────────────────────────────────────────────────
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                           🎯 Ranked Results (by relevance)                 ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+  1. [████████████████████████████████████████] 1.0000
+     └─ Machine learning is a subset of artificial intelligence that enables systems to learn and improve from experience without being explicitly programmed, using algorithms to identify patterns and make decisions.
+
+  2. [███████████████████████████████████████░] 1.0000
+     └─ Deep learning is a specialized branch of machine learning that uses artificial neural networks with multiple layers to progressively extract higher-level features from raw input data for pattern recognition and decision making.
+
+  3. [███████████████████████████████████████░] 1.0000
+     └─ Natural language processing (NLP) is a subfield of linguistics, computer science, and artificial intelligence concerned with the interactions between computers and human language, enabling machines to understand, interpret, and generate natural human speech.
+
+  4. [███████████████████████████████████████░] 1.0000
+     └─ Recurrent neural networks (RNNs) are a class of artificial neural networks designed to recognize patterns in sequences of data such as text, genomes, handwriting, or numerical time series, commonly used for natural language processing tasks.
+
+  5. [███████████████████████████████████████░] 1.0000
+     └─ Convolutional neural networks (CNNs) are a class of deep neural networks most commonly applied to analyzing visual imagery, using specialized linear algebraic operations called convolution instead of general matrix multiplication.
+
+  6. [███████████████████████████████████████░] 1.0000
+     └─ Python is a high-level programming language widely used for web development, data analysis, machine learning, artificial intelligence applications, and scientific computing due to its simple syntax and extensive libraries.
+
+  7. [███████████████████████████████████████░] 0.9991
+     └─ The American Civil War was a civil war in the United States fought between 1861 and 1865, primarily over the issues of slavery and states' rights that divided the Northern and Southern states.
+
+  8. [███████████████████████████████████████░] 0.9990
+     └─ The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France, constructed from 1887 to 1889 as the centerpiece of the 1889 World's Fair and one of the most recognizable structures in the world.
+
+  9. [███████████████████████████████████████░] 0.9987
+     └─ The weather forecast for tomorrow predicts partly cloudy skies with a chance of rain in the afternoon, with temperatures ranging from 15 to 22 degrees Celsius and moderate winds from the southwest.
+
+  10. [███████████████████████████████████████░] 0.9964
+     └─ Financial markets are venues where buyers and sellers engage in the exchange of assets such as stocks, bonds, currencies, and derivatives, with stock markets being key indicators of economic health.
+
+══════════════════════════════════════════════════════════════════════════════════════════════════
+root@rock-5t:/www/wwwroot/rk-3588/qwen3-rerank-rk3588/install/demo_Linux_aarch64# 

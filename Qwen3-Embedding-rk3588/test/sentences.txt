@@ -1,0 +1,10 @@
+Machine learning is a subset of artificial intelligence that enables systems to learn and improve from experience without being explicitly programmed.
+Deep learning is a specialized branch of machine learning that uses artificial neural networks with multiple layers.
+Python is a high-level programming language widely used for web development, data analysis, and machine learning.
+Natural language processing (NLP) is a subfield of linguistics, computer science, and artificial intelligence concerned with the interactions between computers and human language.
+The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.
+Recurrent neural networks (RNNs) are a class of artificial neural networks designed to recognize patterns in sequences of data.
+The American Civil War was a civil war in the United States fought between 1861 and 1865.
+Convolutional neural networks (CNNs) are a class of deep neural networks most commonly applied to analyzing visual imagery.
+Financial markets are venues where buyers and sellers engage in the exchange of assets such as stocks, bonds, currencies, and derivatives.
+Artificial intelligence is intelligence demonstrated by machines, as opposed to natural intelligence displayed by animals and humans.

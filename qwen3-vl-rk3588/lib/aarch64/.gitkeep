@@ -1,0 +1,6 @@
+# 将运行时库放置在此目录
+# 目录结构:
+# lib/
+# └── aarch64/
+#     ├── librkllmrt.so    # RKLLM运行时
+#     └── libomp.so        # OpenMP (如需要)

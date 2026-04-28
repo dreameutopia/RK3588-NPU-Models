@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Model files (large)
+*.rknn
+*.onnx
+*.pth
+*.pt
+*.bin
+*.npy
+
+# Audio outputs (keep directory structure)
+test/output/*/*.wav
+*.wav
+*.mp3
+*.ogg
+
+# Temporary files
+onnx/
+tmp/
+*.log
+*.tmp
+
+# RKNN intermediate files
+check*.onnx
+
+# Archives
+*.tar.bz2
+*.tar.gz
+*.zip
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Conda
+Miniconda*.sh
